@@ -1,0 +1,30 @@
+@base = http://localhost:8080
+
+###
+
+GET {{base}}/user
+
+###
+
+POST {{base}}/user
+
+{
+    "name": "User 03",
+    "about": null
+}
+
+###
+
+GET {{base}}/user/2
+
+###
+
+PUT {{base}}/user/51
+
+{
+    "about": "I also have a info now!"
+}
+
+###
+
+DELETE {{base}}/user/3

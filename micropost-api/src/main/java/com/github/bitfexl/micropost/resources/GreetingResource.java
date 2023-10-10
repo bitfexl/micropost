@@ -1,4 +1,4 @@
-package com.github.bitfexl;
+package com.github.bitfexl.micropost.resources;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
